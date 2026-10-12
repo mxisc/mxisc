@@ -4,7 +4,7 @@
 <path d="M30 77H870" stroke="#38344d"/><circle cx="34" cy="37" r="5" fill="#b59aff"/><circle cx="53" cy="37" r="5" fill="#83c8ff"/><circle cx="72" cy="37" r="5" fill="#78e6c8"/>
 <g font-family="PingFang SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
 <text x="97" y="45" fill="#f1ecff" font-size="21" font-weight="600">存档有动静</text>
-<text x="865" y="43" text-anchor="end" fill="#b3a8d3" font-size="13">同步于 10-12 18:03 · 北京时间</text>
+<text x="865" y="43" text-anchor="end" fill="#b3a8d3" font-size="13">同步于 10-12 18:04 · 北京时间</text>
 <rect x="30" y="94" width="48" height="24" rx="7" fill="#83c8ff" fill-opacity=".12"/>
 <text x="54" y="111" text-anchor="middle" fill="#83c8ff" font-size="13">代码</text>
 <text x="94" y="111" fill="#ebe6fc" font-size="17">Aria2MX</text>
