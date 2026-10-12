@@ -8,9 +8,9 @@
 ### Projects
 
 <p>
-  <a href="https://github.com/mxisc/Dream2.0-MXIN"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/dream2.svg" alt="Dream2" width="260" /></a>
-  <a href="https://github.com/mxisc/Hysteria2MX"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/hysteria2mx.svg" alt="Hysteria2MX" width="260" /></a>
-  <a href="https://github.com/mxisc/Aria2MX"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/aria2mx.svg" alt="Aria2MX" width="260" /></a>
+  <a href="https://github.com/mxisc/Dream2.0-MXIN"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/dream2.svg" alt="Dream2" width="230" /></a>
+  <a href="https://github.com/mxisc/Hysteria2MX"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/hysteria2mx.svg" alt="Hysteria2MX" width="230" /></a>
+  <a href="https://github.com/mxisc/Aria2MX"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/aria2mx.svg" alt="Aria2MX" width="230" /></a>
 </p>
 
 <p align="center">
