@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-label="铭心最近更新">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#19152c"/><stop offset="1" stop-color="#0c1524"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="438" rx="20" fill="url(#bg)" stroke="#46405f"/>
+<path d="M30 77H870" stroke="#38344d"/><circle cx="34" cy="37" r="5" fill="#b59aff"/><circle cx="53" cy="37" r="5" fill="#83c8ff"/><circle cx="72" cy="37" r="5" fill="#78e6c8"/>
+<g font-family="PingFang SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+<text x="97" y="45" fill="#f1ecff" font-size="21" font-weight="600">存档有动静</text>
+<text x="865" y="43" text-anchor="end" fill="#b3a8d3" font-size="13">同步于 10-12 17:48 · 北京时间</text>
+<rect x="30" y="94" width="48" height="24" rx="7" fill="#83c8ff" fill-opacity=".12"/>
+<text x="54" y="111" text-anchor="middle" fill="#83c8ff" font-size="13">代码</text>
+<text x="94" y="111" fill="#ebe6fc" font-size="17">Aria2MX</text>
+<text x="865" y="111" text-anchor="end" fill="#a39cb9" font-size="13">10-12 14:26</text>
+<text x="94" y="132" fill="#a7a4be" font-size="13">Clarify GitHub release guidelines [skip ci]</text>
+<rect x="30" y="155" width="48" height="24" rx="7" fill="#83c8ff" fill-opacity=".12"/>
+<text x="54" y="172" text-anchor="middle" fill="#83c8ff" font-size="13">代码</text>
+<text x="94" y="172" fill="#ebe6fc" font-size="17">mtools</text>
+<text x="865" y="172" text-anchor="end" fill="#a39cb9" font-size="13">10-12 14:20</text>
+<text x="94" y="193" fill="#a7a4be" font-size="13">Migrate remaining GitLab integration to GitHub</text>
+<rect x="30" y="216" width="48" height="24" rx="7" fill="#83c8ff" fill-opacity=".12"/>
+<text x="54" y="233" text-anchor="middle" fill="#83c8ff" font-size="13">代码</text>
+<text x="94" y="233" fill="#ebe6fc" font-size="17">Hysteria2MX</text>
+<text x="865" y="233" text-anchor="end" fill="#a39cb9" font-size="13">10-12 14:20</text>
+<text x="94" y="254" fill="#a7a4be" font-size="13">Migrate remaining GitLab integration to GitHub</text>
+<rect x="30" y="277" width="48" height="24" rx="7" fill="#c4a5ff" fill-opacity=".12"/>
+<text x="54" y="294" text-anchor="middle" fill="#c4a5ff" font-size="13">博客</text>
+<text x="94" y="294" fill="#ebe6fc" font-size="17">阿珏，十周年快乐，往后的日子也要玩得开心</text>
+<text x="865" y="294" text-anchor="end" fill="#a39cb9" font-size="13">10-07 22:59</text>
+<rect x="30" y="338" width="48" height="24" rx="7" fill="#c4a5ff" fill-opacity=".12"/>
+<text x="54" y="355" text-anchor="middle" fill="#c4a5ff" font-size="13">博客</text>
+<text x="94" y="355" fill="#ebe6fc" font-size="17">给博客存档系统打个补丁</text>
+<text x="865" y="355" text-anchor="end" fill="#a39cb9" font-size="13">08-27 21:26</text>
+</g>
+<path d="M30 411H870" stroke="#38344d"/>
+</svg>
