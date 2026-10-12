@@ -23,24 +23,29 @@ def esc(value):
 def short(value, length):
     return value if len(value) <= length else value[:length - 1] + '…'
 
-repos = []
-for page in range(1, 20):
-    batch = json.loads(fetch(f'https://api.github.com/users/mxisc/repos?per_page=100&page={page}', True))
-    repos.extend(batch)
-    if len(batch) < 100:
-        break
-repos = [r for r in repos if not r['fork'] and not r.get('private') and r['name'] != 'mxisc']
-repos.sort(key=lambda r: r['pushed_at'], reverse=True)
+query = 'query { user(login:"mxisc") { pinnedItems(first:6, types:REPOSITORY) { nodes { ... on Repository { name nameWithOwner isFork isPrivate } } } } }'
+headers = {'User-Agent': 'mxisc-profile', 'Content-Type': 'application/json',
+           'Authorization': 'Bearer ' + os.environ['GH_TOKEN']}
+request = urllib.request.Request('https://api.github.com/graphql',
+    data=json.dumps({'query': query}).encode(), headers=headers)
+with urllib.request.urlopen(request, timeout=30) as response:
+    result = json.load(response)
+if result.get('errors'):
+    raise RuntimeError('置顶仓库查询失败')
+repos = [r for r in result['data']['user']['pinnedItems']['nodes']
+         if not r['isFork'] and not r['isPrivate']
+         and r['nameWithOwner'].startswith('mxisc/') and r['name'] != 'mxisc']
 entries = []
-for r in repos[:5]:
+for r in repos:
     commits = json.loads(fetch(f"https://api.github.com/repos/mxisc/{r['name']}/commits?per_page=1", True))
     commit = commits[0]
     date = datetime.fromisoformat(commit['commit']['committer']['date'].replace('Z', '+00:00')).astimezone(CN)
     entries.append(('代码', r['name'], commit['commit']['message'].splitlines()[0], date, commit['html_url']))
 now = datetime.now(CN)
-svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="422" viewBox="0 0 900 422" role="img" aria-label="铭心最近更新">',
+height = 117 + max(1, len(entries)) * 61
+svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}" viewBox="0 0 900 {height}" role="img" aria-label="铭心最近更新">',
 '<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#19152c"/><stop offset="1" stop-color="#0c1524"/></linearGradient></defs>',
-'<rect x="1" y="1" width="898" height="420" rx="20" fill="url(#bg)" stroke="#46405f"/>',
+f'<rect x="1" y="1" width="898" height="{height-2}" rx="20" fill="url(#bg)" stroke="#46405f"/>',
 '<path d="M30 77H870" stroke="#38344d"/><circle cx="34" cy="37" r="5" fill="#b59aff"/><circle cx="53" cy="37" r="5" fill="#83c8ff"/><circle cx="72" cy="37" r="5" fill="#78e6c8"/>',
 '<g font-family="PingFang SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif">',
 '<text x="97" y="45" fill="#f1ecff" font-size="21" font-weight="600">存档有动静</text>',
@@ -54,7 +59,9 @@ for i, (kind, title, detail, date, url) in enumerate(entries):
     f'<text x="865" y="{y}" text-anchor="end" fill="#a39cb9" font-size="13">{date:%m-%d %H:%M}</text>'])
     if detail:
         svg.append(f'<text x="94" y="{y+21}" fill="#a7a4be" font-size="13">{esc(short(detail, 65))}</text>')
-svg.extend(['</g>', '<path d="M30 393H870" stroke="#38344d"/>', '</svg>'])
+if not entries:
+    svg.append('<text x="30" y="125" fill="#a7a4be" font-size="16">暂无置顶项目</text>')
+svg.extend(['</g>', f'<path d="M30 {height-29}H870" stroke="#38344d"/>', '</svg>'])
 Path('assets/status-panel.svg').write_text('\n'.join(svg) + '\n')
 # 外层链接在 GitHub README 中可点击，图片内部 SVG 链接不可靠。
 links = ' &nbsp; · &nbsp; '.join(f'[{esc(e[1])}]({e[4]})' for e in entries)

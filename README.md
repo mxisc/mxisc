@@ -27,5 +27,5 @@
 <!-- PUBLIC-PROJECTS:START -->
 <img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/status-panel.svg" alt="公开项目最近更新" width="100%" />
 
-[Aria2MX](https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107) &nbsp; · &nbsp; [mtools](https://github.com/mxisc/mtools/commit/d3d53032ccac14bc2f1008e5e6544a17103f55c7) &nbsp; · &nbsp; [Hysteria2MX](https://github.com/mxisc/Hysteria2MX/commit/84a8c4840ba8caf7a42072d8fe1e91fd1f138994) &nbsp; · &nbsp; [Dream2.0-MXIN](https://github.com/mxisc/Dream2.0-MXIN/commit/4ee03c02b5bb678e9a42fc679f4895aac245de6c) &nbsp; · &nbsp; [lolimeow](https://github.com/mxisc/lolimeow/commit/475b12c39b9bf0192009b93932d1d68a5068de70)
+[Aria2MX](https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107) &nbsp; · &nbsp; [Dream2.0-MXIN](https://github.com/mxisc/Dream2.0-MXIN/commit/4ee03c02b5bb678e9a42fc679f4895aac245de6c) &nbsp; · &nbsp; [Hysteria2MX](https://github.com/mxisc/Hysteria2MX/commit/84a8c4840ba8caf7a42072d8fe1e91fd1f138994)
 <!-- PUBLIC-PROJECTS:END -->
