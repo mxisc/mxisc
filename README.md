@@ -28,16 +28,10 @@
 
 [**开放接口**](https://api.mxin.moe) · [**suo.bz**](https://suo.bz) — 接口继续跑，长链接剪短。小工具也有自己的用处。
 
-### 顺手存个档
-
-- [想把博客做的像一场游戏ing](https://www.mxin.me/game-system/)
-- [给博客存档系统打个补丁](https://www.mxin.me/game_documentation/)
-- [阿珏，十周年快乐，往后的日子也要玩得开心](https://www.mxin.me/moejue-10th-anniversary/)
-
 ### 存档有动静
 
 <!-- PUBLIC-PROJECTS:START -->
 <img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/status-panel.svg" alt="公开项目最近更新" width="100%" />
 
-[Aria2MX](https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107) &nbsp; · &nbsp; [mtools](https://github.com/mxisc/mtools/commit/d3d53032ccac14bc2f1008e5e6544a17103f55c7) &nbsp; · &nbsp; [Hysteria2MX](https://github.com/mxisc/Hysteria2MX/commit/84a8c4840ba8caf7a42072d8fe1e91fd1f138994)
+[Aria2MX](https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107) &nbsp; · &nbsp; [mtools](https://github.com/mxisc/mtools/commit/d3d53032ccac14bc2f1008e5e6544a17103f55c7) &nbsp; · &nbsp; [Hysteria2MX](https://github.com/mxisc/Hysteria2MX/commit/84a8c4840ba8caf7a42072d8fe1e91fd1f138994) &nbsp; · &nbsp; [Dream2.0-MXIN](https://github.com/mxisc/Dream2.0-MXIN/commit/4ee03c02b5bb678e9a42fc679f4895aac245de6c) &nbsp; · &nbsp; [lolimeow](https://github.com/mxisc/lolimeow/commit/475b12c39b9bf0192009b93932d1d68a5068de70)
 <!-- PUBLIC-PROJECTS:END -->
