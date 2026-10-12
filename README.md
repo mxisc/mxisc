@@ -2,20 +2,20 @@
 
 <p align="center">
   <a href="https://www.mxin.me">www.mxin.me</a>&nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://github.com/mxisc?tab=repositories">Repositories</a>&nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://github.com/mxisc?tab=stars">Stars</a>
+  <a href="https://github.com/mxisc?tab=repositories">项目仓库</a>&nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://github.com/mxisc?tab=stars">收藏</a>
 </p>
 
-### `$ whoami`
+### 关于我
 
 ```text
 铭心 / mxisc
-♥ Silver Wolf
+♥ 银狼
 ⌘ Go · TypeScript · Vue · PHP · WordPress
 ↗ https://www.mxin.me
 ```
 
-### Projects
+### 我的项目
 
 <p>
   <a href="https://github.com/mxisc/Dream2.0-MXIN"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/dream2.svg" alt="Dream2" width="230" /></a>
@@ -25,12 +25,12 @@
 
 [**mtools**](https://github.com/mxisc/mtools) &nbsp; · &nbsp; [**lolimeow**](https://github.com/mxisc/lolimeow)
 
-### Public activity
+### 项目动态
 
 <img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/public-stats.svg" alt="公开非 fork 仓库统计，不含主页仓库" width="100%" />
 
 <!-- PUBLIC-PROJECTS:START -->
-| 项目 | 语言 | Stars | 最近推送（UTC） |
+| 项目 | 语言 | 星标 | 最近推送（UTC） |
 |---|---|---:|---|
 | [Dream2.0-MXIN](https://github.com/mxisc/Dream2.0-MXIN) | PHP | 1 | 2026-10-08 |
 | [Hysteria2MX](https://github.com/mxisc/Hysteria2MX) | Go | 0 | 2026-10-12 |
