@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="192" viewBox="0 0 420 192">
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#17152b"/><stop offset="1" stop-color="#0e1625"/></linearGradient></defs>
+<rect x="1" y="1" width="418" height="190" rx="16" fill="url(#b)" stroke="#393549"/>
+<rect x="26" y="30" width="5" height="25" rx="2" fill="#78e6c8"/>
+<g fill="none" stroke="#78e6c8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".85"><path d="M353 38v30m-11-11 11 11 11-11M333 73v8h40v-8"/></g>
+<text x="26" y="99" fill="#f4f2ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="600">Aria2MX</text>
+<text x="26" y="133" fill="#a3a9c0" font-family="Segoe UI,Arial,sans-serif" font-size="14">Go · Vue</text>
+<path d="M350 137h18m-7-6 7 6-7 6" fill="none" stroke="#78e6c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 164h368" stroke="#333449"/><circle cx="30" cy="164" r="2" fill="#78e6c8"/>
+</svg>
