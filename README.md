@@ -23,7 +23,13 @@
 [**开放接口**](https://api.mxin.moe) · [**suo.bz**](https://suo.bz) — 接口继续跑，长链接剪短。小工具也有自己的用处。
 
 <!-- PUBLIC-PROJECTS:START -->
-<img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/status-panel.svg" alt="公开项目最近更新" width="100%" />
+### 存档有动静
 
-[Aria2MX](https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107) &nbsp; · &nbsp; [Dream2.0-MXIN](https://github.com/mxisc/Dream2.0-MXIN/commit/4ee03c02b5bb678e9a42fc679f4895aac245de6c) &nbsp; · &nbsp; [Hysteria2MX](https://github.com/mxisc/Hysteria2MX/commit/84a8c4840ba8caf7a42072d8fe1e91fd1f138994)
+- **[Aria2MX](https://github.com/mxisc/Aria2MX)** · 2026-10-12 14:26
+  <br>[Clarify GitHub release guidelines [skip ci]](https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107)
+- **[Dream2.0-MXIN](https://github.com/mxisc/Dream2.0-MXIN)** · 2026-10-08 16:15
+  <br>[发布零点七点五八修复导航与友链头像](https://github.com/mxisc/Dream2.0-MXIN/commit/4ee03c02b5bb678e9a42fc679f4895aac245de6c)
+- **[Hysteria2MX](https://github.com/mxisc/Hysteria2MX)** · 2026-10-12 14:20
+  <br>[Migrate remaining GitLab integration to GitHub](https://github.com/mxisc/Hysteria2MX/commit/84a8c4840ba8caf7a42072d8fe1e91fd1f138994)
+
 <!-- PUBLIC-PROJECTS:END -->
