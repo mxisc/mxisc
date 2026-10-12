@@ -22,8 +22,6 @@
 
 [**开放接口**](https://api.mxin.moe) · [**suo.bz**](https://suo.bz) — 接口继续跑，长链接剪短。小工具也有自己的用处。
 
-### 存档有动静
-
 <!-- PUBLIC-PROJECTS:START -->
 <img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/status-panel.svg" alt="公开项目最近更新" width="100%" />
 
