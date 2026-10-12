@@ -16,12 +16,6 @@
 
 ### 最近开的坑
 
-<p>
-  <a href="https://github.com/mxisc/Dream2.0-MXIN"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/dream2.svg" alt="Dream2" width="230" /></a>
-  <a href="https://github.com/mxisc/Hysteria2MX"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/hysteria2mx.svg" alt="Hysteria2MX" width="230" /></a>
-  <a href="https://github.com/mxisc/Aria2MX"><img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/aria2mx.svg" alt="Aria2MX" width="230" /></a>
-</p>
-
 [**梦屿**](https://github.com/mxisc/Dream2.0-MXIN) — 博客的皮肤，从 Halo Dream 2.0 搬到 WordPress，还在加新玩法。
 
 [**Hysteria2MX**](https://github.com/mxisc/Hysteria2MX) · [**Aria2MX**](https://github.com/mxisc/Aria2MX) — 一个管节点，一个管下载。操作少点，省下时间打游戏。
