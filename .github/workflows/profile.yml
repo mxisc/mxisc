@@ -1,4 +1,4 @@
-name: Refresh profile
+name: 更新主页
 on:
   push:
     branches: [main]
@@ -22,8 +22,8 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/public-stats.svg
+          git add README.md
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh public project stats"
+            git commit -m "更新公开项目动态"
             git push
           fi

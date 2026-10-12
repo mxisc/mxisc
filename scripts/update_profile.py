@@ -16,13 +16,6 @@ lookup={r['name']:r for r in repos}
 rows=[]
 for name in selected:
     r=lookup.get(name)
-    if r:rows.append(f"| [{name}]({r['html_url']}) | {r['language'] or '—'} | {r['stargazers_count']} | {r['pushed_at'][:10]} |")
-section='| 项目 | 语言 | 星标 | 最近推送（UTC） |\n|---|---|---:|---|\n'+'\n'.join(rows)
+    if r:rows.append(f"| [{name}]({r['html_url']}) | {r['language'] or '—'} | {r['pushed_at'][:10]} |")
+section='| 项目 | 语言 | 最近推送（UTC） |\n|---|---|---|\n'+'\n'.join(rows)
 p=Path('README.md');s=p.read_text();start='<!-- PUBLIC-PROJECTS:START -->';end='<!-- PUBLIC-PROJECTS:END -->';a=s.index(start)+len(start);b=s.index(end);p.write_text(s[:a]+'\n'+section+'\n'+s[b:])
-values=[('公开项目',len(repos)),('星标',sum(r['stargazers_count'] for r in repos)),('编程语言',len(set(r['language'] for r in repos if r['language'])))]
-parts=['<svg xmlns="http://www.w3.org/2000/svg" width="900" height="148" viewBox="0 0 900 148">','<rect x="1" y="1" width="898" height="146" rx="16" fill="#121424" stroke="#393549"/>']
-for i,(label,value) in enumerate(values):
-    x=32+i*300
-    if i:parts.append(f'<path d="M{x-17} 30v88" stroke="#34354a"/>')
-    parts.append(f'<text x="{x}" y="51" fill="#a8a4bb" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="15">{label}</text><text x="{x}" y="106" fill="#c7b4ff" font-family="monospace" font-size="43">{value}</text>')
-parts.append('</svg>');Path('assets/public-stats.svg').write_text(''.join(parts))
