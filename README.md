@@ -12,8 +12,6 @@
 
 **PHP · Go · Python · Shell**，装备够用就行。遇到有意思的点子，先开个坑再说。最近的主线：把博客折腾成一场游戏。
 
-Codex 配额充足，天才程序员上线；配额耗尽，退回 Hello, World!。嗯，强度有点依赖补给。
-
 ♥ **银狼 · 芙宁娜 · 灰原哀**
 
 ### 最近开的坑
@@ -39,7 +37,7 @@ Codex 配额充足，天才程序员上线；配额耗尽，退回 Hello, World!
 ### 存档有动静
 
 <!-- PUBLIC-PROJECTS:START -->
-<img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/status-panel.svg" alt="博客与公开项目最近更新" width="100%" />
+<img src="https://raw.githubusercontent.com/mxisc/mxisc/main/assets/status-panel.svg" alt="公开项目最近更新" width="100%" />
 
-[Aria2MX](https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107) &nbsp; · &nbsp; [mtools](https://github.com/mxisc/mtools/commit/d3d53032ccac14bc2f1008e5e6544a17103f55c7) &nbsp; · &nbsp; [Hysteria2MX](https://github.com/mxisc/Hysteria2MX/commit/84a8c4840ba8caf7a42072d8fe1e91fd1f138994) &nbsp; · &nbsp; [阿珏，十周年快乐，往后的日子也要玩得开心](https://www.mxin.me/moejue-10th-anniversary/) &nbsp; · &nbsp; [给博客存档系统打个补丁](https://www.mxin.me/game_documentation/)
+[Aria2MX](https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107) &nbsp; · &nbsp; [mtools](https://github.com/mxisc/mtools/commit/d3d53032ccac14bc2f1008e5e6544a17103f55c7) &nbsp; · &nbsp; [Hysteria2MX](https://github.com/mxisc/Hysteria2MX/commit/84a8c4840ba8caf7a42072d8fe1e91fd1f138994)
 <!-- PUBLIC-PROJECTS:END -->
