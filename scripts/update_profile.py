@@ -41,11 +41,19 @@ for r in repos:
     commit = commits[0]
     date = datetime.fromisoformat(commit['commit']['committer']['date'].replace('Z', '+00:00')).astimezone(CN)
     entries.append(('代码', r['name'], commit['commit']['message'].splitlines()[0], date, commit['html_url']))
-section = '### 存档有动静\n\n'
+section = '<h3>存档有动静</h3>\n\n<table>\n'
 for _, name, message, date, url in entries:
-    section += f"- **[{esc(name)}](https://github.com/mxisc/{name})** · {date:%Y-%m-%d %H:%M}\n  <br>[{esc(message)}]({url})\n"
+    section += (
+        '<tr>\n'
+        f'<td width="72%"><a href="https://github.com/mxisc/{esc(name)}"><strong>{esc(name)}</strong></a>'
+        f'<br><br><a href="{esc(url)}">{esc(message)}</a></td>\n'
+        f'<td align="right" valign="middle" width="28%"><code>{date:%Y-%m-%d}</code>'
+        f'<br><br><code>{date:%H:%M}</code></td>\n'
+        '</tr>\n'
+    )
 if not entries:
-    section += '暂无置顶项目\n'
+    section += '<tr><td>暂无置顶项目</td></tr>\n'
+section += '</table>\n'
 p = Path('README.md')
 s = p.read_text()
 start, end = '<!-- PUBLIC-PROJECTS:START -->', '<!-- PUBLIC-PROJECTS:END -->'
