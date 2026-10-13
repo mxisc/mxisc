@@ -41,3 +41,9 @@
 </table>
 
 <!-- PUBLIC-PROJECTS:END -->
+
+<h3 align="center">又有玩家路过</h3>
+
+<p align="center">
+  <a href="https://github.com/journey-ad/Moe-Counter"><img src="https://count.getloli.com/@mxisc-github-profile?theme=asoul" alt="来访计数" /></a>
+</p>
