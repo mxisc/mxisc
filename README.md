@@ -35,8 +35,8 @@
 <td align="right" valign="middle" width="28%"><code>2026-10-08</code><br><br><code>16:15</code></td>
 </tr>
 <tr>
-<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/2e601094fd7cb90e8af128cb9a0bc8be62115bb2">记录 Agent 地址迁移规则</a></td>
-<td align="right" valign="middle" width="28%"><code>2026-10-13</code><br><br><code>18:35</code></td>
+<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/b739d62a8cb978a2bf1645cfb54c38bf5e5520a6">Fix HTTPS login detection behind local reverse proxies</a></td>
+<td align="right" valign="middle" width="28%"><code>2026-10-14</code><br><br><code>02:47</code></td>
 </tr>
 </table>
 
