@@ -35,8 +35,8 @@
 <td align="right" valign="middle" width="28%"><code>2026-10-08</code><br><br><code>16:15</code></td>
 </tr>
 <tr>
-<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/b739d62a8cb978a2bf1645cfb54c38bf5e5520a6">Fix HTTPS login detection behind local reverse proxies</a></td>
-<td align="right" valign="middle" width="28%"><code>2026-10-14</code><br><br><code>02:47</code></td>
+<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/8be21bbb24b9147d959e3538e5e001e4acf76b08">Retry buffered monitor samples after transient upload failures</a></td>
+<td align="right" valign="middle" width="28%"><code>2026-10-15</code><br><br><code>00:48</code></td>
 </tr>
 </table>
 
