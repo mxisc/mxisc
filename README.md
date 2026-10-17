@@ -27,16 +27,16 @@
 
 <table>
 <tr>
-<td width="72%"><a href="https://github.com/mxisc/Aria2MX"><strong>Aria2MX</strong></a><br><br><a href="https://github.com/mxisc/Aria2MX/commit/b53e881404d2fbbed86007d90b97af54ce277107">Clarify GitHub release guidelines [skip ci]</a></td>
-<td align="right" valign="middle" width="28%"><code>2026-10-12</code><br><br><code>14:26</code></td>
+<td width="72%"><a href="https://github.com/mxisc/Aria2MX"><strong>Aria2MX</strong></a><br><br><a href="https://github.com/mxisc/Aria2MX/commit/da1a11e8315fa00649163e16e7796574a4303462">更新开源协议</a></td>
+<td align="right" valign="middle" width="28%"><code>2026-10-17</code><br><br><code>15:19</code></td>
 </tr>
 <tr>
 <td width="72%"><a href="https://github.com/mxisc/Dream2.0-MXIN"><strong>Dream2.0-MXIN</strong></a><br><br><a href="https://github.com/mxisc/Dream2.0-MXIN/commit/4ee03c02b5bb678e9a42fc679f4895aac245de6c">发布零点七点五八修复导航与友链头像</a></td>
 <td align="right" valign="middle" width="28%"><code>2026-10-08</code><br><br><code>16:15</code></td>
 </tr>
 <tr>
-<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/8be21bbb24b9147d959e3538e5e001e4acf76b08">Retry buffered monitor samples after transient upload failures</a></td>
-<td align="right" valign="middle" width="28%"><code>2026-10-15</code><br><br><code>00:48</code></td>
+<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/0683283c9a8f2e9ae4d5f47ddbd65737429c29ae">更新开源协议</a></td>
+<td align="right" valign="middle" width="28%"><code>2026-10-17</code><br><br><code>15:18</code></td>
 </tr>
 </table>
 
