@@ -35,8 +35,8 @@
 <td align="right" valign="middle" width="28%"><code>2026-10-08</code><br><br><code>16:15</code></td>
 </tr>
 <tr>
-<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/0683283c9a8f2e9ae4d5f47ddbd65737429c29ae">更新开源协议</a></td>
-<td align="right" valign="middle" width="28%"><code>2026-10-17</code><br><br><code>15:18</code></td>
+<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/675dd59f0d0f617f7bbc6883a03c58000ca657e5">发布 v1.0.11</a></td>
+<td align="right" valign="middle" width="28%"><code>2026-11-01</code><br><br><code>16:53</code></td>
 </tr>
 </table>
 
