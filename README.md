@@ -35,8 +35,8 @@
 <td align="right" valign="middle" width="28%"><code>2026-10-08</code><br><br><code>16:15</code></td>
 </tr>
 <tr>
-<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/675dd59f0d0f617f7bbc6883a03c58000ca657e5">发布 v1.0.11</a></td>
-<td align="right" valign="middle" width="28%"><code>2026-11-01</code><br><br><code>16:53</code></td>
+<td width="72%"><a href="https://github.com/mxisc/Hysteria2MX"><strong>Hysteria2MX</strong></a><br><br><a href="https://github.com/mxisc/Hysteria2MX/commit/de9d3c5571c622a884ba062e5aeb50957d10041d">完善节点监控加载布局与下拉框样式</a></td>
+<td align="right" valign="middle" width="28%"><code>2026-11-05</code><br><br><code>14:05</code></td>
 </tr>
 </table>
 
